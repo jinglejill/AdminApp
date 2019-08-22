@@ -7,6 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14ECC4C06A1FCF5A45DDC3EE /* libPods-AdminApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E454F9530BD35C42FFDCC2D /* libPods-AdminApp.a */; };
+		174535230D4C6B4074BAEC72 /* libPods-AdminAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAE51EF08FBE3B0BFA47FA3 /* libPods-AdminAppTests.a */; };
+		D073B589C21F57C8F2C3CA65 /* libPods-AdminAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140180FBB9BBCA43B14317A /* libPods-AdminAppUITests.a */; };
+		EF091D6222C4BC6C004C73DD /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091D6122C4BC6C004C73DD /* MainMenuViewController.m */; };
+		EF091D7222C4BDD3004C73DD /* EN.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF091D6822C4BDD3004C73DD /* EN.strings */; };
+		EF091D7322C4BDD4004C73DD /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091D6922C4BDD3004C73DD /* Utility.m */; };
+		EF091D7422C4BDD4004C73DD /* TH.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF091D6A22C4BDD3004C73DD /* TH.strings */; };
+		EF091D7522C4BDD4004C73DD /* iOSDeviceModelMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF091D6B22C4BDD3004C73DD /* iOSDeviceModelMapping.plist */; };
+		EF091D7722C4BDD4004C73DD /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091D6D22C4BDD3004C73DD /* HomeModel.m */; };
+		EF091D7922C4BDD4004C73DD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF091D6F22C4BDD3004C73DD /* Launch Screen.storyboard */; };
+		EF091D7A22C4BDD4004C73DD /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF091D7022C4BDD3004C73DD /* Property List.plist */; };
+		EF091D7D22C4BDEE004C73DD /* BranchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091D7C22C4BDEE004C73DD /* BranchListViewController.m */; };
+		EF091D8022C4BEF5004C73DD /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091D7E22C4BEF5004C73DD /* CustomViewController.m */; };
+		EF091EA022C4C12C004C73DD /* SharedBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091DF722C4C12C004C73DD /* SharedBranch.m */; };
+		EF091EA622C4C12C004C73DD /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091E0522C4C12C004C73DD /* Branch.m */; };
+		EF091EA922C4C12C004C73DD /* CustomerTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091E0A22C4C12C004C73DD /* CustomerTable.m */; };
+		EF091EAE22C4C12C004C73DD /* SharedCustomerTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091E1622C4C12C004C73DD /* SharedCustomerTable.m */; };
+		EF091ECD22C4CC4F004C73DD /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091ECB22C4CC4F004C73DD /* Language.m */; };
+		EF091ECE22C4CC4F004C73DD /* SharedLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091ECC22C4CC4F004C73DD /* SharedLanguage.m */; };
+		EF091ED122C5E2A2004C73DD /* CustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091ED022C5E2A2004C73DD /* CustomerTableViewController.m */; };
+		EF091ED622C5E51F004C73DD /* CustomTableViewCellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091ED322C5E51F004C73DD /* CustomTableViewCellMenu.xib */; };
+		EF091ED722C5E51F004C73DD /* CustomTableViewCellMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091ED522C5E51F004C73DD /* CustomTableViewCellMenu.m */; };
+		EF091EDC22C5E568004C73DD /* Zone.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091ED822C5E568004C73DD /* Zone.m */; };
+		EF091EDD22C5E568004C73DD /* SharedZone.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091ED922C5E568004C73DD /* SharedZone.m */; };
+		EF091EE322C606FD004C73DD /* CustomTableViewCellQRTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091EE122C606FD004C73DD /* CustomTableViewCellQRTable.m */; };
+		EF091EE422C606FD004C73DD /* CustomTableViewCellQRTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091EE222C606FD004C73DD /* CustomTableViewCellQRTable.xib */; };
+		EF091EE722C60CDD004C73DD /* PrintQRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091EE622C60CDD004C73DD /* PrintQRTableViewController.m */; };
+		EF091F1122C6138E004C73DD /* bsj673ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EEB22C6138E004C73DD /* bsj673ad.ptd */; };
+		EF091F1222C6138E004C73DD /* bsq72wad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EEC22C6138E004C73DD /* bsq72wad.ptd */; };
+		EF091F1322C6138E004C73DD /* bsr305ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EED22C6138E004C73DD /* bsr305ad.ptd */; };
+		EF091F1422C6138E004C73DD /* bspp75ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EEE22C6138E004C73DD /* bspp75ad.ptd */; };
+		EF091F1522C6138E004C73DD /* bsr404ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EEF22C6138E004C73DD /* bsr404ad.ptd */; };
+		EF091F1622C6138E004C73DD /* bsq71wad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EF022C6138E004C73DD /* bsq71wad.ptd */; };
+		EF091F1722C6138E004C73DD /* bst213ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EF122C6138E004C73DD /* bst213ad.ptd */; };
+		EF091F1822C6138E004C73DD /* bspe55ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EF222C6138E004C73DD /* bspe55ad.ptd */; };
+		EF091F1922C6138E004C73DD /* bsr315ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EF322C6138E004C73DD /* bsr315ad.ptd */; };
+		EF091F1A22C6138E004C73DD /* bst212ad.ptd in Resources */ = {isa = PBXBuildFile; fileRef = EF091EF422C6138E004C73DD /* bst212ad.ptd */; };
+		EF091F1B22C6138E004C73DD /* 51_20_700.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF091EF922C6138E004C73DD /* 51_20_700.bin */; };
+		EF091F1C22C6138E004C73DD /* 58_0_4000.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF091EFA22C6138E004C73DD /* 58_0_4000.bin */; };
+		EF091F1D22C6138E004C73DD /* 58_0_2000.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF091EFB22C6138E004C73DD /* 58_0_2000.bin */; };
+		EF091F1E22C6138E004C73DD /* 102_50_4000.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF091EFC22C6138E004C73DD /* 102_50_4000.bin */; };
+		EF091F1F22C6138E004C73DD /* 58_0_2120.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF091EFD22C6138E004C73DD /* 58_0_2120.bin */; };
+		EF091F2022C6138E004C73DD /* 51_20_2000.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF091EFE22C6138E004C73DD /* 51_20_2000.bin */; };
+		EF091F2122C6138E004C73DD /* 58_0_700.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF091EFF22C6138E004C73DD /* 58_0_700.bin */; };
+		EF091F2222C6138E004C73DD /* PrinterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0022C6138E004C73DD /* PrinterView.xib */; };
+		EF091F2322C6138E004C73DD /* ReachabilityBrother.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F0122C6138E004C73DD /* ReachabilityBrother.m */; };
+		EF091F2422C6138E004C73DD /* PrinterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F0222C6138E004C73DD /* PrinterView.m */; };
+		EF091F2522C6138E004C73DD /* PrinterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0422C6138E004C73DD /* PrinterList.plist */; };
+		EF091F2622C6138E004C73DD /* OptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F0522C6138E004C73DD /* OptionView.m */; };
+		EF091F2722C6138E004C73DD /* OptionView_TD.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0722C6138E004C73DD /* OptionView_TD.xib */; };
+		EF091F2822C6138E004C73DD /* OptionView_QL.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0822C6138E004C73DD /* OptionView_QL.xib */; };
+		EF091F2922C6138E004C73DD /* OptionView_PJ.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0922C6138E004C73DD /* OptionView_PJ.xib */; };
+		EF091F2A22C6138E004C73DD /* OptionView_PT.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0A22C6138E004C73DD /* OptionView_PT.xib */; };
+		EF091F2B22C6138E004C73DD /* OptionView_RJ.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0B22C6138E004C73DD /* OptionView_RJ.xib */; };
+		EF091F2C22C6138E004C73DD /* PDFSelectVIewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F0C22C6138E004C73DD /* PDFSelectVIewControllerViewController.m */; };
+		EF091F2D22C6138E004C73DD /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F0D22C6138E004C73DD /* Utilities.m */; };
+		EF091F2E22C6138E004C73DD /* PDFSelectVIewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF091F0E22C6138E004C73DD /* PDFSelectVIewControllerViewController.xib */; };
+		EF091F3022C614BE004C73DD /* BRPtouchPrinterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF091F2F22C614BE004C73DD /* BRPtouchPrinterKit.framework */; };
+		EF091F3D22C636FD004C73DD /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F3222C636FC004C73DD /* NSString+Base64.m */; };
+		EF091F3E22C636FD004C73DD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EF091F3322C636FC004C73DD /* LICENSE */; };
+		EF091F3F22C636FD004C73DD /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F3422C636FC004C73DD /* AESCrypt.m */; };
+		EF091F4022C636FD004C73DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF091F3722C636FC004C73DD /* README.md */; };
+		EF091F4122C636FD004C73DD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EF091F3822C636FC004C73DD /* .gitignore */; };
+		EF091F4222C636FD004C73DD /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F3B22C636FC004C73DD /* NSData+CommonCrypto.m */; };
+		EF091F4322C636FD004C73DD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EF091F3C22C636FC004C73DD /* NSData+Base64.m */; };
 		EF5D24502127A3750073F1A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D244F2127A3750073F1A1 /* AppDelegate.m */; };
 		EF5D24532127A3750073F1A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D24522127A3750073F1A1 /* ViewController.m */; };
 		EF5D24562127A3750073F1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5D24542127A3750073F1A1 /* Main.storyboard */; };
@@ -15,6 +80,7 @@
 		EF5D245E2127A3770073F1A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D245D2127A3770073F1A1 /* main.m */; };
 		EF5D24682127A3770073F1A1 /* AdminAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D24672127A3770073F1A1 /* AdminAppTests.m */; };
 		EF5D24732127A3770073F1A1 /* AdminAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D24722127A3770073F1A1 /* AdminAppUITests.m */; };
+		EF5D24822127FB3A0073F1A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF5D24812127FB390073F1A1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +101,103 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08B460A3D995CF9A229F7FFE /* Pods-AdminAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminAppTests/Pods-AdminAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E454F9530BD35C42FFDCC2D /* libPods-AdminApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdminApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3606CACB85AADA5850AB8F44 /* Pods-AdminAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminAppUITests/Pods-AdminAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4140180FBB9BBCA43B14317A /* libPods-AdminAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdminAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB1490F7AFAAFBD10C63CAB /* Pods-AdminApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminApp/Pods-AdminApp.release.xcconfig"; sourceTree = "<group>"; };
+		583D1CD9FC88C3E8266641A7 /* Pods-AdminAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminAppTests/Pods-AdminAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAE51EF08FBE3B0BFA47FA3 /* libPods-AdminAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdminAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3C727EB0E2D0B1F1289EE4 /* Pods-AdminApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminApp/Pods-AdminApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EF091D6022C4BC6C004C73DD /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		EF091D6122C4BC6C004C73DD /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		EF091D6622C4BDD3004C73DD /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		EF091D6822C4BDD3004C73DD /* EN.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = EN.strings; sourceTree = "<group>"; };
+		EF091D6922C4BDD3004C73DD /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		EF091D6A22C4BDD3004C73DD /* TH.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TH.strings; sourceTree = "<group>"; };
+		EF091D6B22C4BDD3004C73DD /* iOSDeviceModelMapping.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iOSDeviceModelMapping.plist; sourceTree = "<group>"; };
+		EF091D6D22C4BDD3004C73DD /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		EF091D6F22C4BDD3004C73DD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EF091D7022C4BDD3004C73DD /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		EF091D7122C4BDD3004C73DD /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		EF091D7B22C4BDEE004C73DD /* BranchListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BranchListViewController.h; sourceTree = "<group>"; };
+		EF091D7C22C4BDEE004C73DD /* BranchListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BranchListViewController.m; sourceTree = "<group>"; };
+		EF091D7E22C4BEF5004C73DD /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		EF091D7F22C4BEF5004C73DD /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		EF091D8E22C4C12B004C73DD /* SharedBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedBranch.h; sourceTree = "<group>"; };
+		EF091D9C22C4C12B004C73DD /* SharedCustomerTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedCustomerTable.h; sourceTree = "<group>"; };
+		EF091DA822C4C12B004C73DD /* CustomerTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTable.h; sourceTree = "<group>"; };
+		EF091DAB22C4C12B004C73DD /* Branch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Branch.h; sourceTree = "<group>"; };
+		EF091DF722C4C12C004C73DD /* SharedBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedBranch.m; sourceTree = "<group>"; };
+		EF091E0522C4C12C004C73DD /* Branch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Branch.m; sourceTree = "<group>"; };
+		EF091E0A22C4C12C004C73DD /* CustomerTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTable.m; sourceTree = "<group>"; };
+		EF091E1622C4C12C004C73DD /* SharedCustomerTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedCustomerTable.m; sourceTree = "<group>"; };
+		EF091EC922C4CC4F004C73DD /* SharedLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedLanguage.h; sourceTree = "<group>"; };
+		EF091ECA22C4CC4F004C73DD /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
+		EF091ECB22C4CC4F004C73DD /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
+		EF091ECC22C4CC4F004C73DD /* SharedLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedLanguage.m; sourceTree = "<group>"; };
+		EF091ECF22C5E2A2004C73DD /* CustomerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewController.h; sourceTree = "<group>"; };
+		EF091ED022C5E2A2004C73DD /* CustomerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewController.m; sourceTree = "<group>"; };
+		EF091ED322C5E51F004C73DD /* CustomTableViewCellMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCellMenu.xib; sourceTree = "<group>"; };
+		EF091ED422C5E51F004C73DD /* CustomTableViewCellMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCellMenu.h; sourceTree = "<group>"; };
+		EF091ED522C5E51F004C73DD /* CustomTableViewCellMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellMenu.m; sourceTree = "<group>"; };
+		EF091ED822C5E568004C73DD /* Zone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zone.m; sourceTree = "<group>"; };
+		EF091ED922C5E568004C73DD /* SharedZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedZone.m; sourceTree = "<group>"; };
+		EF091EDA22C5E568004C73DD /* Zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zone.h; sourceTree = "<group>"; };
+		EF091EDB22C5E568004C73DD /* SharedZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedZone.h; sourceTree = "<group>"; };
+		EF091EE022C606FD004C73DD /* CustomTableViewCellQRTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCellQRTable.h; sourceTree = "<group>"; };
+		EF091EE122C606FD004C73DD /* CustomTableViewCellQRTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellQRTable.m; sourceTree = "<group>"; };
+		EF091EE222C606FD004C73DD /* CustomTableViewCellQRTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCellQRTable.xib; sourceTree = "<group>"; };
+		EF091EE522C60CDD004C73DD /* PrintQRTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintQRTableViewController.h; sourceTree = "<group>"; };
+		EF091EE622C60CDD004C73DD /* PrintQRTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintQRTableViewController.m; sourceTree = "<group>"; };
+		EF091EEB22C6138E004C73DD /* bsj673ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bsj673ad.ptd; sourceTree = "<group>"; };
+		EF091EEC22C6138E004C73DD /* bsq72wad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bsq72wad.ptd; sourceTree = "<group>"; };
+		EF091EED22C6138E004C73DD /* bsr305ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bsr305ad.ptd; sourceTree = "<group>"; };
+		EF091EEE22C6138E004C73DD /* bspp75ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bspp75ad.ptd; sourceTree = "<group>"; };
+		EF091EEF22C6138E004C73DD /* bsr404ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bsr404ad.ptd; sourceTree = "<group>"; };
+		EF091EF022C6138E004C73DD /* bsq71wad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bsq71wad.ptd; sourceTree = "<group>"; };
+		EF091EF122C6138E004C73DD /* bst213ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bst213ad.ptd; sourceTree = "<group>"; };
+		EF091EF222C6138E004C73DD /* bspe55ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bspe55ad.ptd; sourceTree = "<group>"; };
+		EF091EF322C6138E004C73DD /* bsr315ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bsr315ad.ptd; sourceTree = "<group>"; };
+		EF091EF422C6138E004C73DD /* bst212ad.ptd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bst212ad.ptd; sourceTree = "<group>"; };
+		EF091EF522C6138E004C73DD /* SDK_Sample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDK_Sample-Prefix.pch"; sourceTree = "<group>"; };
+		EF091EF622C6138E004C73DD /* PDFSelectVIewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFSelectVIewControllerViewController.h; sourceTree = "<group>"; };
+		EF091EF722C6138E004C73DD /* OptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionView.h; sourceTree = "<group>"; };
+		EF091EF922C6138E004C73DD /* 51_20_700.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 51_20_700.bin; sourceTree = "<group>"; };
+		EF091EFA22C6138E004C73DD /* 58_0_4000.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 58_0_4000.bin; sourceTree = "<group>"; };
+		EF091EFB22C6138E004C73DD /* 58_0_2000.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 58_0_2000.bin; sourceTree = "<group>"; };
+		EF091EFC22C6138E004C73DD /* 102_50_4000.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 102_50_4000.bin; sourceTree = "<group>"; };
+		EF091EFD22C6138E004C73DD /* 58_0_2120.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 58_0_2120.bin; sourceTree = "<group>"; };
+		EF091EFE22C6138E004C73DD /* 51_20_2000.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 51_20_2000.bin; sourceTree = "<group>"; };
+		EF091EFF22C6138E004C73DD /* 58_0_700.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 58_0_700.bin; sourceTree = "<group>"; };
+		EF091F0022C6138E004C73DD /* PrinterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrinterView.xib; sourceTree = "<group>"; };
+		EF091F0122C6138E004C73DD /* ReachabilityBrother.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityBrother.m; sourceTree = "<group>"; };
+		EF091F0222C6138E004C73DD /* PrinterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterView.m; sourceTree = "<group>"; };
+		EF091F0322C6138E004C73DD /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		EF091F0422C6138E004C73DD /* PrinterList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrinterList.plist; sourceTree = "<group>"; };
+		EF091F0522C6138E004C73DD /* OptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionView.m; sourceTree = "<group>"; };
+		EF091F0722C6138E004C73DD /* OptionView_TD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionView_TD.xib; sourceTree = "<group>"; };
+		EF091F0822C6138E004C73DD /* OptionView_QL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionView_QL.xib; sourceTree = "<group>"; };
+		EF091F0922C6138E004C73DD /* OptionView_PJ.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionView_PJ.xib; sourceTree = "<group>"; };
+		EF091F0A22C6138E004C73DD /* OptionView_PT.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionView_PT.xib; sourceTree = "<group>"; };
+		EF091F0B22C6138E004C73DD /* OptionView_RJ.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionView_RJ.xib; sourceTree = "<group>"; };
+		EF091F0C22C6138E004C73DD /* PDFSelectVIewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFSelectVIewControllerViewController.m; sourceTree = "<group>"; };
+		EF091F0D22C6138E004C73DD /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		EF091F0E22C6138E004C73DD /* PDFSelectVIewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFSelectVIewControllerViewController.xib; sourceTree = "<group>"; };
+		EF091F0F22C6138E004C73DD /* PrinterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterView.h; sourceTree = "<group>"; };
+		EF091F1022C6138E004C73DD /* ReachabilityBrother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityBrother.h; sourceTree = "<group>"; };
+		EF091F2F22C614BE004C73DD /* BRPtouchPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BRPtouchPrinterKit.framework; sourceTree = "<group>"; };
+		EF091F3222C636FC004C73DD /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		EF091F3322C636FC004C73DD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EF091F3422C636FC004C73DD /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		EF091F3522C636FC004C73DD /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		EF091F3622C636FC004C73DD /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		EF091F3722C636FC004C73DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF091F3822C636FC004C73DD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EF091F3922C636FC004C73DD /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		EF091F3A22C636FC004C73DD /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		EF091F3B22C636FC004C73DD /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		EF091F3C22C636FC004C73DD /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		EF5D244B2127A3750073F1A1 /* AdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5D244E2127A3750073F1A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF5D244F2127A3750073F1A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +214,9 @@
 		EF5D246E2127A3770073F1A1 /* AdminAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5D24722127A3770073F1A1 /* AdminAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminAppUITests.m; sourceTree = "<group>"; };
 		EF5D24742127A3770073F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5D24802127A3850073F1A1 /* AdminApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdminApp.entitlements; sourceTree = "<group>"; };
+		EF5D24812127FB390073F1A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBE833759A23FD1FA2E00402 /* Pods-AdminAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminAppUITests/Pods-AdminAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +224,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14ECC4C06A1FCF5A45DDC3EE /* libPods-AdminApp.a in Frameworks */,
+				EF091F3022C614BE004C73DD /* BRPtouchPrinterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174535230D4C6B4074BAEC72 /* libPods-AdminAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +241,222 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D073B589C21F57C8F2C3CA65 /* libPods-AdminAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA024C9B76FA3CA9869F564E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E454F9530BD35C42FFDCC2D /* libPods-AdminApp.a */,
+				8CAE51EF08FBE3B0BFA47FA3 /* libPods-AdminAppTests.a */,
+				4140180FBB9BBCA43B14317A /* libPods-AdminAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7426B326F5CC2EF2F479A9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3C727EB0E2D0B1F1289EE4 /* Pods-AdminApp.debug.xcconfig */,
+				4DB1490F7AFAAFBD10C63CAB /* Pods-AdminApp.release.xcconfig */,
+				583D1CD9FC88C3E8266641A7 /* Pods-AdminAppTests.debug.xcconfig */,
+				08B460A3D995CF9A229F7FFE /* Pods-AdminAppTests.release.xcconfig */,
+				3606CACB85AADA5850AB8F44 /* Pods-AdminAppUITests.debug.xcconfig */,
+				FBE833759A23FD1FA2E00402 /* Pods-AdminAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF091D6322C4BD79004C73DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF091EE822C6138E004C73DD /* Library */,
+				EF091ED222C5E51F004C73DD /* CustomView */,
+				EF091D8122C4C12B004C73DD /* Model */,
+				EF091D6522C4BDD3004C73DD /* BaseObject */,
+				EF091D6422C4BD81004C73DD /* Controller */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF091D6422C4BD81004C73DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF091D7F22C4BEF5004C73DD /* CustomViewController.h */,
+				EF091D7E22C4BEF5004C73DD /* CustomViewController.m */,
+				EF091D6022C4BC6C004C73DD /* MainMenuViewController.h */,
+				EF091D6122C4BC6C004C73DD /* MainMenuViewController.m */,
+				EF091D7B22C4BDEE004C73DD /* BranchListViewController.h */,
+				EF091D7C22C4BDEE004C73DD /* BranchListViewController.m */,
+				EF091ECF22C5E2A2004C73DD /* CustomerTableViewController.h */,
+				EF091ED022C5E2A2004C73DD /* CustomerTableViewController.m */,
+				EF091EE522C60CDD004C73DD /* PrintQRTableViewController.h */,
+				EF091EE622C60CDD004C73DD /* PrintQRTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF091D6522C4BDD3004C73DD /* BaseObject */ = {
+			isa = PBXGroup;
+			children = (
+				EF091D6822C4BDD3004C73DD /* EN.strings */,
+				EF091D6622C4BDD3004C73DD /* HomeModel.h */,
+				EF091D6D22C4BDD3004C73DD /* HomeModel.m */,
+				EF091D6B22C4BDD3004C73DD /* iOSDeviceModelMapping.plist */,
+				EF091D6F22C4BDD3004C73DD /* Launch Screen.storyboard */,
+				EF091D7022C4BDD3004C73DD /* Property List.plist */,
+				EF091D6A22C4BDD3004C73DD /* TH.strings */,
+				EF091D7122C4BDD3004C73DD /* Utility.h */,
+				EF091D6922C4BDD3004C73DD /* Utility.m */,
+			);
+			path = BaseObject;
+			sourceTree = "<group>";
+		};
+		EF091D8122C4C12B004C73DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF091EDB22C5E568004C73DD /* SharedZone.h */,
+				EF091ED922C5E568004C73DD /* SharedZone.m */,
+				EF091EDA22C5E568004C73DD /* Zone.h */,
+				EF091ED822C5E568004C73DD /* Zone.m */,
+				EF091ECA22C4CC4F004C73DD /* Language.h */,
+				EF091ECB22C4CC4F004C73DD /* Language.m */,
+				EF091EC922C4CC4F004C73DD /* SharedLanguage.h */,
+				EF091ECC22C4CC4F004C73DD /* SharedLanguage.m */,
+				EF091DAB22C4C12B004C73DD /* Branch.h */,
+				EF091E0522C4C12C004C73DD /* Branch.m */,
+				EF091DA822C4C12B004C73DD /* CustomerTable.h */,
+				EF091E0A22C4C12C004C73DD /* CustomerTable.m */,
+				EF091D8E22C4C12B004C73DD /* SharedBranch.h */,
+				EF091DF722C4C12C004C73DD /* SharedBranch.m */,
+				EF091D9C22C4C12B004C73DD /* SharedCustomerTable.h */,
+				EF091E1622C4C12C004C73DD /* SharedCustomerTable.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF091ED222C5E51F004C73DD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				EF091ED322C5E51F004C73DD /* CustomTableViewCellMenu.xib */,
+				EF091ED422C5E51F004C73DD /* CustomTableViewCellMenu.h */,
+				EF091ED522C5E51F004C73DD /* CustomTableViewCellMenu.m */,
+				EF091EE022C606FD004C73DD /* CustomTableViewCellQRTable.h */,
+				EF091EE122C606FD004C73DD /* CustomTableViewCellQRTable.m */,
+				EF091EE222C606FD004C73DD /* CustomTableViewCellQRTable.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EF091EE822C6138E004C73DD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EF091F3122C636FC004C73DD /* AESCrypt-ObjC-master */,
+				EF091EE922C6138E004C73DD /* BrotherPrinter */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EF091EE922C6138E004C73DD /* BrotherPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				EF091F2F22C614BE004C73DD /* BRPtouchPrinterKit.framework */,
+				EF091EEA22C6138E004C73DD /* PTD Files */,
+				EF091EF522C6138E004C73DD /* SDK_Sample-Prefix.pch */,
+				EF091EF622C6138E004C73DD /* PDFSelectVIewControllerViewController.h */,
+				EF091EF722C6138E004C73DD /* OptionView.h */,
+				EF091EF822C6138E004C73DD /* Customized Paper */,
+				EF091F0022C6138E004C73DD /* PrinterView.xib */,
+				EF091F0122C6138E004C73DD /* ReachabilityBrother.m */,
+				EF091F0222C6138E004C73DD /* PrinterView.m */,
+				EF091F0322C6138E004C73DD /* Utilities.h */,
+				EF091F0422C6138E004C73DD /* PrinterList.plist */,
+				EF091F0522C6138E004C73DD /* OptionView.m */,
+				EF091F0622C6138E004C73DD /* OptionViewXib */,
+				EF091F0C22C6138E004C73DD /* PDFSelectVIewControllerViewController.m */,
+				EF091F0D22C6138E004C73DD /* Utilities.m */,
+				EF091F0E22C6138E004C73DD /* PDFSelectVIewControllerViewController.xib */,
+				EF091F0F22C6138E004C73DD /* PrinterView.h */,
+				EF091F1022C6138E004C73DD /* ReachabilityBrother.h */,
+			);
+			path = BrotherPrinter;
+			sourceTree = "<group>";
+		};
+		EF091EEA22C6138E004C73DD /* PTD Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF091EEB22C6138E004C73DD /* bsj673ad.ptd */,
+				EF091EEC22C6138E004C73DD /* bsq72wad.ptd */,
+				EF091EED22C6138E004C73DD /* bsr305ad.ptd */,
+				EF091EEE22C6138E004C73DD /* bspp75ad.ptd */,
+				EF091EEF22C6138E004C73DD /* bsr404ad.ptd */,
+				EF091EF022C6138E004C73DD /* bsq71wad.ptd */,
+				EF091EF122C6138E004C73DD /* bst213ad.ptd */,
+				EF091EF222C6138E004C73DD /* bspe55ad.ptd */,
+				EF091EF322C6138E004C73DD /* bsr315ad.ptd */,
+				EF091EF422C6138E004C73DD /* bst212ad.ptd */,
+			);
+			path = "PTD Files";
+			sourceTree = "<group>";
+		};
+		EF091EF822C6138E004C73DD /* Customized Paper */ = {
+			isa = PBXGroup;
+			children = (
+				EF091EF922C6138E004C73DD /* 51_20_700.bin */,
+				EF091EFA22C6138E004C73DD /* 58_0_4000.bin */,
+				EF091EFB22C6138E004C73DD /* 58_0_2000.bin */,
+				EF091EFC22C6138E004C73DD /* 102_50_4000.bin */,
+				EF091EFD22C6138E004C73DD /* 58_0_2120.bin */,
+				EF091EFE22C6138E004C73DD /* 51_20_2000.bin */,
+				EF091EFF22C6138E004C73DD /* 58_0_700.bin */,
+			);
+			path = "Customized Paper";
+			sourceTree = "<group>";
+		};
+		EF091F0622C6138E004C73DD /* OptionViewXib */ = {
+			isa = PBXGroup;
+			children = (
+				EF091F0722C6138E004C73DD /* OptionView_TD.xib */,
+				EF091F0822C6138E004C73DD /* OptionView_QL.xib */,
+				EF091F0922C6138E004C73DD /* OptionView_PJ.xib */,
+				EF091F0A22C6138E004C73DD /* OptionView_PT.xib */,
+				EF091F0B22C6138E004C73DD /* OptionView_RJ.xib */,
+			);
+			path = OptionViewXib;
+			sourceTree = "<group>";
+		};
+		EF091F3122C636FC004C73DD /* AESCrypt-ObjC-master */ = {
+			isa = PBXGroup;
+			children = (
+				EF091F3222C636FC004C73DD /* NSString+Base64.m */,
+				EF091F3322C636FC004C73DD /* LICENSE */,
+				EF091F3422C636FC004C73DD /* AESCrypt.m */,
+				EF091F3522C636FC004C73DD /* NSData+Base64.h */,
+				EF091F3622C636FC004C73DD /* NSData+CommonCrypto.h */,
+				EF091F3722C636FC004C73DD /* README.md */,
+				EF091F3822C636FC004C73DD /* .gitignore */,
+				EF091F3922C636FC004C73DD /* AESCrypt.h */,
+				EF091F3A22C636FC004C73DD /* NSString+Base64.h */,
+				EF091F3B22C636FC004C73DD /* NSData+CommonCrypto.m */,
+				EF091F3C22C636FC004C73DD /* NSData+Base64.m */,
+			);
+			path = "AESCrypt-ObjC-master";
+			sourceTree = "<group>";
+		};
 		EF5D24422127A3750073F1A1 = {
 			isa = PBXGroup;
 			children = (
+				EF091D6322C4BD79004C73DD /* Resources */,
 				EF5D244D2127A3750073F1A1 /* AdminApp */,
 				EF5D24662127A3770073F1A1 /* AdminAppTests */,
 				EF5D24712127A3770073F1A1 /* AdminAppUITests */,
 				EF5D244C2127A3750073F1A1 /* Products */,
+				D7426B326F5CC2EF2F479A9F /* Pods */,
+				CA024C9B76FA3CA9869F564E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +473,8 @@
 		EF5D244D2127A3750073F1A1 /* AdminApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF5D24812127FB390073F1A1 /* GoogleService-Info.plist */,
+				EF5D24802127A3850073F1A1 /* AdminApp.entitlements */,
 				EF5D244E2127A3750073F1A1 /* AppDelegate.h */,
 				EF5D244F2127A3750073F1A1 /* AppDelegate.m */,
 				EF5D24512127A3750073F1A1 /* ViewController.h */,
@@ -139,6 +513,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF5D24772127A3770073F1A1 /* Build configuration list for PBXNativeTarget "AdminApp" */;
 			buildPhases = (
+				905B639B0C7B64F9D6A72D72 /* [CP] Check Pods Manifest.lock */,
 				EF5D24472127A3750073F1A1 /* Sources */,
 				EF5D24482127A3750073F1A1 /* Frameworks */,
 				EF5D24492127A3750073F1A1 /* Resources */,
@@ -156,6 +531,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF5D247A2127A3770073F1A1 /* Build configuration list for PBXNativeTarget "AdminAppTests" */;
 			buildPhases = (
+				4EF712596F87ABA93DD2C6CA /* [CP] Check Pods Manifest.lock */,
 				EF5D245F2127A3770073F1A1 /* Sources */,
 				EF5D24602127A3770073F1A1 /* Frameworks */,
 				EF5D24612127A3770073F1A1 /* Resources */,
@@ -174,6 +550,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF5D247D2127A3770073F1A1 /* Build configuration list for PBXNativeTarget "AdminAppUITests" */;
 			buildPhases = (
+				938D46668F0CF0C7DBADA375 /* [CP] Check Pods Manifest.lock */,
 				EF5D246A2127A3770073F1A1 /* Sources */,
 				EF5D246B2127A3770073F1A1 /* Frameworks */,
 				EF5D246C2127A3770073F1A1 /* Resources */,
@@ -199,6 +576,11 @@
 				TargetAttributes = {
 					EF5D244A2127A3750073F1A1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					EF5D24622127A3770073F1A1 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -235,9 +617,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF091F1322C6138E004C73DD /* bsr305ad.ptd in Resources */,
+				EF091F2522C6138E004C73DD /* PrinterList.plist in Resources */,
+				EF091F1D22C6138E004C73DD /* 58_0_2000.bin in Resources */,
+				EF091F1222C6138E004C73DD /* bsq72wad.ptd in Resources */,
 				EF5D245B2127A3770073F1A1 /* LaunchScreen.storyboard in Resources */,
+				EF091F1A22C6138E004C73DD /* bst212ad.ptd in Resources */,
+				EF091F2E22C6138E004C73DD /* PDFSelectVIewControllerViewController.xib in Resources */,
+				EF091ED622C5E51F004C73DD /* CustomTableViewCellMenu.xib in Resources */,
+				EF091F3E22C636FD004C73DD /* LICENSE in Resources */,
+				EF091F1622C6138E004C73DD /* bsq71wad.ptd in Resources */,
+				EF091F1C22C6138E004C73DD /* 58_0_4000.bin in Resources */,
+				EF091F1822C6138E004C73DD /* bspe55ad.ptd in Resources */,
+				EF091F1422C6138E004C73DD /* bspp75ad.ptd in Resources */,
+				EF091F1F22C6138E004C73DD /* 58_0_2120.bin in Resources */,
+				EF091F1922C6138E004C73DD /* bsr315ad.ptd in Resources */,
+				EF091F1722C6138E004C73DD /* bst213ad.ptd in Resources */,
+				EF091F2122C6138E004C73DD /* 58_0_700.bin in Resources */,
+				EF091D7522C4BDD4004C73DD /* iOSDeviceModelMapping.plist in Resources */,
+				EF091F1522C6138E004C73DD /* bsr404ad.ptd in Resources */,
+				EF091D7222C4BDD3004C73DD /* EN.strings in Resources */,
+				EF091F2822C6138E004C73DD /* OptionView_QL.xib in Resources */,
+				EF091D7922C4BDD4004C73DD /* Launch Screen.storyboard in Resources */,
+				EF091F2922C6138E004C73DD /* OptionView_PJ.xib in Resources */,
+				EF091F1E22C6138E004C73DD /* 102_50_4000.bin in Resources */,
+				EF091F2022C6138E004C73DD /* 51_20_2000.bin in Resources */,
+				EF091F2B22C6138E004C73DD /* OptionView_RJ.xib in Resources */,
+				EF091F2222C6138E004C73DD /* PrinterView.xib in Resources */,
+				EF091EE422C606FD004C73DD /* CustomTableViewCellQRTable.xib in Resources */,
+				EF091F1122C6138E004C73DD /* bsj673ad.ptd in Resources */,
+				EF091F2722C6138E004C73DD /* OptionView_TD.xib in Resources */,
+				EF5D24822127FB3A0073F1A1 /* GoogleService-Info.plist in Resources */,
 				EF5D24582127A3770073F1A1 /* Assets.xcassets in Resources */,
+				EF091F4022C636FD004C73DD /* README.md in Resources */,
+				EF091D7422C4BDD4004C73DD /* TH.strings in Resources */,
+				EF091D7A22C4BDD4004C73DD /* Property List.plist in Resources */,
+				EF091F2A22C6138E004C73DD /* OptionView_PT.xib in Resources */,
 				EF5D24562127A3750073F1A1 /* Main.storyboard in Resources */,
+				EF091F4122C636FD004C73DD /* .gitignore in Resources */,
+				EF091F1B22C6138E004C73DD /* 51_20_700.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +675,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EF712596F87ABA93DD2C6CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdminAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		905B639B0C7B64F9D6A72D72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdminApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938D46668F0CF0C7DBADA375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdminAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF5D24472127A3750073F1A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF091F3D22C636FD004C73DD /* NSString+Base64.m in Sources */,
+				EF091D6222C4BC6C004C73DD /* MainMenuViewController.m in Sources */,
+				EF091EA622C4C12C004C73DD /* Branch.m in Sources */,
 				EF5D24532127A3750073F1A1 /* ViewController.m in Sources */,
+				EF091D7722C4BDD4004C73DD /* HomeModel.m in Sources */,
+				EF091F2322C6138E004C73DD /* ReachabilityBrother.m in Sources */,
+				EF091D7322C4BDD4004C73DD /* Utility.m in Sources */,
+				EF091EA922C4C12C004C73DD /* CustomerTable.m in Sources */,
+				EF091F2622C6138E004C73DD /* OptionView.m in Sources */,
+				EF091F2422C6138E004C73DD /* PrinterView.m in Sources */,
+				EF091EDD22C5E568004C73DD /* SharedZone.m in Sources */,
+				EF091F2C22C6138E004C73DD /* PDFSelectVIewControllerViewController.m in Sources */,
+				EF091D8022C4BEF5004C73DD /* CustomViewController.m in Sources */,
+				EF091ED722C5E51F004C73DD /* CustomTableViewCellMenu.m in Sources */,
 				EF5D245E2127A3770073F1A1 /* main.m in Sources */,
+				EF091F2D22C6138E004C73DD /* Utilities.m in Sources */,
+				EF091F3F22C636FD004C73DD /* AESCrypt.m in Sources */,
+				EF091ED122C5E2A2004C73DD /* CustomerTableViewController.m in Sources */,
+				EF091EAE22C4C12C004C73DD /* SharedCustomerTable.m in Sources */,
 				EF5D24502127A3750073F1A1 /* AppDelegate.m in Sources */,
+				EF091F4222C636FD004C73DD /* NSData+CommonCrypto.m in Sources */,
+				EF091D7D22C4BDEE004C73DD /* BranchListViewController.m in Sources */,
+				EF091EE722C60CDD004C73DD /* PrintQRTableViewController.m in Sources */,
+				EF091EDC22C5E568004C73DD /* Zone.m in Sources */,
+				EF091ECE22C4CC4F004C73DD /* SharedLanguage.m in Sources */,
+				EF091EE322C606FD004C73DD /* CustomTableViewCellQRTable.m in Sources */,
+				EF091EA022C4C12C004C73DD /* SharedBranch.m in Sources */,
+				EF091F4322C636FD004C73DD /* NSData+Base64.m in Sources */,
+				EF091ECD22C4CC4F004C73DD /* Language.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +932,20 @@
 		};
 		EF5D24782127A3770073F1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3C727EB0E2D0B1F1289EE4 /* Pods-AdminApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdminApp/AdminApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF8AZLDC5D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources/Library/BrotherPrinter",
+					"$(PROJECT_DIR)/Resources/Library/CryptoSwift",
+				);
 				INFOPLIST_FILE = AdminApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +958,20 @@
 		};
 		EF5D24792127A3770073F1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB1490F7AFAAFBD10C63CAB /* Pods-AdminApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdminApp/AdminApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF8AZLDC5D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources/Library/BrotherPrinter",
+					"$(PROJECT_DIR)/Resources/Library/CryptoSwift",
+				);
 				INFOPLIST_FILE = AdminApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +984,7 @@
 		};
 		EF5D247B2127A3770073F1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583D1CD9FC88C3E8266641A7 /* Pods-AdminAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +1004,7 @@
 		};
 		EF5D247C2127A3770073F1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B460A3D995CF9A229F7FFE /* Pods-AdminAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +1024,7 @@
 		};
 		EF5D247E2127A3770073F1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3606CACB85AADA5850AB8F44 /* Pods-AdminAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF8AZLDC5D;
@@ -521,6 +1043,7 @@
 		};
 		EF5D247F2127A3770073F1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE833759A23FD1FA2E00402 /* Pods-AdminAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF8AZLDC5D;

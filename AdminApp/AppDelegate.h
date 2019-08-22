@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@import UserNotifications;
+@import Firebase;
+@import FirebaseInstanceID;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UNUserNotificationCenterDelegate,FIRMessagingDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UIViewController *vc;
 
 
 @end
